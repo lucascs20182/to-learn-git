@@ -137,4 +137,13 @@ Output comentado do history do meu terminal:
     
     o que possibilita enviar new pull request - solicitação de um merge com o repositório forkado
     
+    
+    //atualizando o fork
+    ```git remote add upstream https://github.com/tiagor87/unifeso-financial-control``` //adiciona um remote com base na versão original 
+       
+    ```git fetch upstream``` //atualiza o upstream
+    
+    ```git merge upstream/master master``` //faz merge do upstream com branch master do projeto local
+    
+    ``` git push origin master ``` //empurra as modificações para o repo no github
 */
