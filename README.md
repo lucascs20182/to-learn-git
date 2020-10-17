@@ -127,6 +127,11 @@ Output comentado do history do meu terminal:
 
 ```git pull origin master``` //baixa atualizações mais recentes do repo remoto p/ repo local e faz merge automaticamente
 
+// another way: downloads the latest from remote without trying to merge or rebase anything
+
+``` git fetch --all ```
+``` git reset --hard origin/master ```
+
 
 
 #### 5. Fork
