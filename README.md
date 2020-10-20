@@ -29,7 +29,8 @@ Output comentado do history do meu terminal:
 
 ```git push origin master``` //empurra para o github as alterações da branch master
 
-
+##### 1.2. What if I've to undo a commit? That is, move last git commit back to unstaged area?
+```git reset HEAD^``
 
 #### 2. Branch
 
