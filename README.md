@@ -32,6 +32,16 @@ Output comentado do history do meu terminal:
 ##### 1.2. What if I've to undo a commit? That is, move last git commit back to unstaged area?
 ```git reset HEAD^``
 
+##### 1.2. What if I've to commit a manually deleted file or folder?
+```git rm object/ -r``` //deleta recursivamente (tag -r) os arquivos da pasta object
+
+```git add .``` //adiciona as demais modificações a staging area
+
+```git commit -m "moving files"```
+
+```git push```
+
+
 #### 2. Branch
 
 ```git status```
@@ -131,6 +141,7 @@ Output comentado do history do meu terminal:
 // another way: downloads the latest from remote without trying to merge or rebase anything
 
 ``` git fetch --all ```
+
 ``` git reset --hard origin/master ```
 
 
