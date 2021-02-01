@@ -41,6 +41,11 @@ Output comentado do history do meu terminal:
 
 ```git push```
 
+##### 1.3. Como incorporar mudanças no último commit
+```git commit --amend``` //se passar mensagem ele sobescrever a que você tinha escrito antes
+
+```git push --force-with-lease```
+
 
 #### 2. Branch
 
